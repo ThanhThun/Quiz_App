@@ -5,7 +5,9 @@ const mongoose = require("mongoose");
 const cookieParser = require("cookie-parser");
 const authRoute = require("./routes/auth");
 const userRoute = require("./routes/user")
-const questionRoute = require("./routes/question") 
+const questionRoute = require("./routes/question")
+const roomRoute = require("./routes/room") 
+
 
 dotenv.config();
 const app = express();
@@ -24,6 +26,8 @@ app.use(express.json());
 app.use("/v1/auth", authRoute);
 app.use("/v1/user", userRoute);
 app.use("/v1/q", questionRoute);
+app.use("/v1/r", roomRoute);
+
 
 
 app.listen(8000, () => {
