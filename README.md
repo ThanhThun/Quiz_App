@@ -1,11 +1,34 @@
 # Quiz_app
 Game for multiplayer
+====================
+Giới Thiệu Những Trang Của Ứng Dụng Game Trắc Nghiệm
 
-Trang chủ
-![image](https://github.com/ThanhThun/Quiz_app/assets/158555392/42cdfbd3-6067-49ff-acf0-faa6fc8e9de2)
+TRANG CHỦ
+- User click vào chọn đường dẫn để điều hướng trang.
+  + TRANG LOGIN
+  + TRANG PIN
 
-Giao diện Đăng Nhập
-![image](https://github.com/ThanhThun/Quiz_app/assets/158555392/3e1425ef-5b3d-4c0e-8399-6ae30d297eea)
+TRANG LOGIN gồm các chức năng:
+- Register/Login/LogOut.
+  + Register thành công trả về trang Login.
+  + Login thành công trả về TRANG NGƯỜI DÙNG để Thêm - Xoá - Sửa bộ câu của User.
 
-Giao diện Đăng Ký
-![image](https://github.com/ThanhThun/Quiz_app/assets/158555392/dd1b56f3-9adc-418d-a653-7dc7804f1715)
+TRANG PIN:
+- Khi người dùng nhập mã Pin để tham gia trò chơi
+  + Nếu đúng sẽ được chuyển về phòng chat chung.
+  + Nếu sai sẽ hiển thị thông báo sau đó yêu cầu nhập lại.
+
+Trang Chat Chung:
+- Hiển thị thành viên trong Room.
+- Có một nút Start dành cho User tạo ra bộ câu hỏi và có thể bắt đầu bất cứ lúc nào.
+
+Trang Play:
+- Khi User click nút play trò chơi sẽ bắt đầu.
+
+Trang InPlay:
+- Trang này sẽ hiển thị câu hỏi và các đáp án, câu hỏi sẽ được hiển thị lần lượt mỗi khi User tạo ra câu hỏi click next.
+
+Trang Result:
+- Trả về xếp hạng của ba người chơi có số điểm cao nhất.
+- Có một nút END sẽ chuyển người chơi về TRANG CHỦ.
+-------------------------------------------------------
