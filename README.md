@@ -1,7 +1,7 @@
 # Quiz_app
 Game for multiplayer
 ====================
-Giới Thiệu Những Trang Của Ứng Dụng Game Trắc Nghiệm
+Giới Thiệu Những Trang Của Ứng Dụng Game Trắc Nghiệm -> Source Code bên nhánh Master
 
 TRANG CHỦ
 - User click vào chọn đường dẫn để điều hướng trang.
